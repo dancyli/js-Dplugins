@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calendar</title>
+    <link rel="stylesheet" href="../src/calendar/calendar.css">
+    <style>
+        #calendar {
+            width:650px;
+            height: 580px;
+        }
+        .line {
+            display: inline-block;
+            width: 5px;
+            margin-right: 5px;
+            min-height: 20px;
+            vertical-align: middle;
+            margin-bottom: 5px;
+        }
+        .purple {
+            background: #4E00C2;
+        }
+        .blue {
+            background: #00D3F5;
+        }
+        .orange {
+            background: #F98500;
+        }
+        .gray {
+            background: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div id="calendar"></div>
+    <script src="../src/calendar/calendar.js"></script>
+    <script>
+
+        DCalendar.init(calendar, {
+            // lang: 'zh', //默认en
+            isUpperCase: true, // 全大写，lang为en时才生效,
+			notMouseOver: true, // 禁用onMouseOver事件，默认false
+			notDblClick: true, // 禁用onDblClick事件，默认false
+			// notClick: true, // 禁用onClick事件，默认false
+            defaultDate: '2018-12', // 设置默认年月，不配置默认显示当前年月，格式YYYY-MM
+            onClick: function(params, event){ //日历点击事件
+                console.log('onClick', params)
+            },
+            onMouseOver: function(params, event) { //日历鼠标mouseover事件
+                console.log('onMouseOver', params)
+            },
+            onDblClick: function(params, event) { //日历双击事件
+				console.log('onDblClick', params)
+            },
+            renderData: function(params) { //日历数据渲染, return的html或文本决定日历的显示内容，必须return，若不需要渲染数据则可return 空字符串
+            	// console.log('renderData', params);
+                var data = {
+                	id: 18,
+                    content: '主要内容'
+                }
+                if(params.day == data.id || params.day == 1) {
+					return getHtml(data);
+                }
+            	return ''
+            },
+            afterRender: function() { //日历渲染成功之后，可为自定义渲染的内容绑定事件，需传入class选择器
+                // 可绑定的事件类型有 ['onclick', 'onmouseover', 'ondblclick', 'onchange', 'onblur', 'onselect', 'onfocus', 'onmousedown', 'onmouseup']
+                DCalendar.bindMyFn('onclick', 'js-calendar-class', function(){
+                    // 绑定的函数
+                    console.log("这是js-calendar-class的自定义函数onclick")
+                })
+                DCalendar.bindMyFn('onmousedown', 'js-calendar-class', function(){
+                    // 绑定的函数
+                    console.log("这是js-calendar-class的自定义函数onmousedown")
+                })
+            }
+        });
+
+		function getHtml(data) {
+			var html = '';
+
+            html += '<div class="js-calendar-class class-content" data-id="' + data.id + '">' +
+                        '<span class="line purple"></span> ' + data.content
+                    '</div>';
+            return html;
+        }
+
+    </script>
+</body>
+</html>
