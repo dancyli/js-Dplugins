@@ -9,4 +9,8 @@
 
 ## Pagination ##
 
-努力开发中......
+[分页插件Pagination](https://github.com/dancyli/js-Dplugins/blob/master/doc/pagination.md)
+
+[example](https://github.com/dancyli/js-Dplugins/blob/master/examples/pagination.html)
+
+更多插件正在努力开发中，敬请期待......
