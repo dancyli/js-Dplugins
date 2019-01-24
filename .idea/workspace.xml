@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9daba02f-c3e6-4420-a4d4-765015453142" name="Default Changelist" comment="" />
+    <list default="true" id="9daba02f-c3e6-4420-a4d4-765015453142" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/pagination.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pagination/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pagination/pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,43 +21,44 @@
     <session id="1816941607">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="7" />
-          <entry key="html" value="3" />
-          <entry key="js" value="8" />
-          <entry key="md" value="5" />
+          <entry key="css" value="8" />
+          <entry key="html" value="5" />
+          <entry key="js" value="10" />
+          <entry key="md" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="7" />
-          <entry key="HTML" value="3" />
-          <entry key="JavaScript" value="8" />
-          <entry key="Markdown" value="5" />
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="5" />
+          <entry key="JavaScript" value="10" />
+          <entry key="Markdown" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="43" />
-          <entry key="html" value="1299" />
-          <entry key="js" value="1474" />
+          <entry key="css" value="644" />
+          <entry key="html" value="2602" />
+          <entry key="js" value="3444" />
           <entry key="md" value="24" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="43" />
-          <entry key="HTML" value="1299" />
-          <entry key="JavaScript" value="1474" />
+          <entry key="CSS" value="644" />
+          <entry key="HTML" value="2602" />
+          <entry key="JavaScript" value="3444" />
           <entry key="Markdown" value="24" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
@@ -59,21 +66,43 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/calendar.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/calendar/calendar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="-244">
+              <caret line="190" column="24" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/calendar/calendar.js">
+        <entry file="file://$PROJECT_DIR$/src/pagination/pagination.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6395">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="517">
+              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pagination/pagination.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="e#1946#1955#0" />
+                <element signature="e#1451#1672#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/pagination.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="706">
+              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -83,6 +112,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -98,6 +128,8 @@
       <find>console</find>
       <find>renderData</find>
       <find>_dealData</find>
+      <find>render</find>
+      <find>_renderHeader</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,6 +148,10 @@
         <option value="$PROJECT_DIR$/src/calendar/calendar.css" />
         <option value="$PROJECT_DIR$/src/calendar/calendar.js" />
         <option value="$PROJECT_DIR$/examples/calendar.html" />
+        <option value="E:/table/index.html" />
+        <option value="$PROJECT_DIR$/src/pagination/pagination.css" />
+        <option value="$PROJECT_DIR$/src/pagination/pagination.js" />
+        <option value="$PROJECT_DIR$/examples/pagination.html" />
       </list>
     </option>
   </component>
@@ -126,12 +162,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="415" />
-    <option name="y" value="186" />
+    <option name="x" value="301" />
+    <option name="y" value="71" />
     <option name="width" value="1191" />
     <option name="height" value="822" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -166,6 +204,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="calendar" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="js-Dplugins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-Dplugins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pagination" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -175,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/blog-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -204,11 +248,12 @@
       <workItem from="1547803516485" duration="3003000" />
       <workItem from="1548035840098" duration="25246000" />
       <workItem from="1548122051137" duration="1076000" />
+      <workItem from="1548304988886" duration="14091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29344000" />
+    <option name="totallyTimeSpent" value="44669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -269,17 +314,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/calendar/calendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6395">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/calendar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/pagination.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/table/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="83" column="34" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="34" />
+          <folding>
+            <element signature="e#3123#3129#0" expanded="true" />
+            <element signature="e#3129#3135#0" expanded="true" />
+            <element signature="e#3135#3141#0" expanded="true" />
+            <element signature="e#3141#3147#0" expanded="true" />
+            <element signature="n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#9;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calendar/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-244">
+          <caret line="190" column="24" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pagination/pagination.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pagination/pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#1946#1955#0" />
+            <element signature="e#1451#1672#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pagination</title>
+    <link rel="stylesheet" href="../src/pagination/pagination.css">
+</head>
+<body>
+    <table id="datatable">
+        <thead>
+            <tr>
+                <th>id序列</th>
+                <th>图片</th>
+                <th>名称</th>
+            </tr>
+        </thead>
+        <tbody class="datatable">
+        </tbody>
+    </table>
+    <div id="pagination" class="">
+        <!--<ul class="pagination">-->
+            <!--<li><a href="#" class="first">首页</a></li>-->
+            <!--<li><a href="#" class="prev">上一页</a></li>-->
+            <!--<li><a href="#" class="current">1</a></li>-->
+            <!--<li><a href="#">2</a></li>-->
+            <!--<li><a href="#">3</a></li>-->
+            <!--<li><a href="#" class="more">···</a></li>-->
+            <!--<li><a href="#">10</a></li>-->
+            <!--<li><a href="#" class="prev">下一页</a></li>-->
+            <!--<li><a href="#" class="last">尾页</a></li>-->
+        <!--</ul>-->
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../src/pagination/pagination.js"></script>
+    <script>
+        // http://47.105.134.120:3001/api/category
+        $.ajax({
+          method: 'get',
+          url: 'http://47.105.134.120:3001/api/category',
+          success: function(data) {
+          	var html = '';
+          	data.forEach((item, i) =>{
+          		if(i < 5) {
+                    html += '<tr>' +
+                                '<td>' + item.id + '</td>' +
+                                '<td><img src="' + item.img + '"></td>' +
+                                '<td>' + item.title + '</td>' +
+                            '</tr>';
+                }
+
+            })
+            $(".datatable").html(html)
+          }
+        })
+        DPagination.init(pagination, {
+            totalPage: 8,
+            currentPage: 1
+        })
+    </script>
+</body>
+</html>
