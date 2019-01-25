@@ -31,16 +31,25 @@
     margin: 0 5px;
     cursor: pointer;
 }
-.pagination a:hover, .pagination a.current {
+.pagination a.current {
     color: #efefef;
     background: #0389E0;
     border: 1px solid #129BF5;
     border-left: 0;
 }
+.pagination a:hover {
+    color: #0389E0;
+}
+.pagination a.current:hover {
+    color: #efefef;
+}
 .pagination .first{
     border-left: 1px solid #ccc;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
+}
+.pagination a.first:hover {
+    border-left: 1px solid #ccc;
 }
 .pagination .first:hover {
     border-left: 1px solid #129BF5;

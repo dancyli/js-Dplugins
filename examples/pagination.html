@@ -17,7 +17,8 @@
         <tbody class="datatable">
         </tbody>
     </table>
-    <div id="pagination" class="">
+    <!-- 分页条有三种大小 small large normal，不加class默认为normal -->
+    <div id="pagination" class="normal">
         <!--<ul class="pagination">-->
             <!--<li><a href="#" class="first">首页</a></li>-->
             <!--<li><a href="#" class="prev">上一页</a></li>-->
@@ -55,7 +56,7 @@
         DPagination.init(pagination, {
             totalPage: 30,
             currentPage: 1,
-            betweenPage: 6, //取值范围[1-(totalPage-3)] 超出范围默认为totalPage-3
+            betweenPage: 5, //默认为4，取值范围[1-(totalPage-3)] 超出范围默认为totalPage-3
         })
     </script>
 </body>

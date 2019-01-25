@@ -1,11 +1,12 @@
 /**
  * @type {{init, render, _renderFixedBar, _calcPage, _renderPage, _renderMorePage, _createElem, _validBetweenPage}}
  * @dancy
- * @date 2019-01-24
+ * @createAt 2019-01-24
  *
  * @update 2019-01-25
  * 1. 修改renderPage渲染模式，添加_calcPage页码计算
- * 2. 新增配置项betweenPage，导航条显示页码数量配置，默认为4。取值范围[1-(totalPage-3)] 超出范围默认为totalPage-3
+ * 2. 新增配置项betweenPage，分页条显示页码数量配置，默认为4。取值范围[1-(totalPage-3)] 超出范围默认为totalPage-3
+ * 3. 修改分页条鼠标hover样式
  */
 var DPagination = (function(){
 	return {

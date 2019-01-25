@@ -1,6 +1,6 @@
 /**
  * @type {{init, getMonthSettings, getAjaxData, prev, next, render, _renderHeader, _renderBody, _renderData, _getClassHTML, _dealData, _bindFn, _calcDays, _getTitle, _calcStyle, _getElemStyle}}
- * @date 2019-01-18
+ * @createAt 2019-01-18
  * @author Dancy
  *
  * @update 2019-01-21
