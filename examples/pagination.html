@@ -53,8 +53,9 @@
           }
         })
         DPagination.init(pagination, {
-            totalPage: 8,
-            currentPage: 1
+            totalPage: 30,
+            currentPage: 1,
+            betweenPage: 6, //取值范围[1-(totalPage-3)] 超出范围默认为totalPage-3
         })
     </script>
 </body>
