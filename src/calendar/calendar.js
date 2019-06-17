@@ -188,7 +188,7 @@ var DCalendar = (function(){
 
 			var now = new Date();
 			var year = this._year || now.getFullYear();
-			var month =this._month || now.getMonth()
+			var month = this._month || now.getMonth();
 			var header = document.createDocumentFragment();
 
 			var contain = document.createElement('div');
@@ -286,7 +286,7 @@ var DCalendar = (function(){
 		},
 		_getTitle: function() {
 			var lang = this._lang === 'en' ? 'enName' : 'name';
-			var month = this._month || new Date().getMonth();
+			var month = this._month !== undefined ? this._month : new Date().getMonth();
 			var year = this._year || new Date().getFullYear();
 			var title = this._monthSettings[month][lang];
 
