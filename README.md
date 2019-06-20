@@ -8,7 +8,7 @@
 举个例子：[example](https://github.com/dancyli/js-Dplugins/blob/master/examples/calendar.html)
 
 效果图
-![日历插件](C:\Users\岳小虎\Desktop\calendar.png)
+![日历插件](https://github.com/dancyli/js-Dplugins/blob/master/doc/images/calendar.png)
 
 ## Pagination ##
 
