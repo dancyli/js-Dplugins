@@ -67,7 +67,7 @@ var DTree = (function () {
             }
         },
         setOtherStyle: function () {
-            var folders = this.elem.querySelectorAll('.d-tree .folder');
+            var folders = this.elem.querySelectorAll('.d-tree .tree');
             var docs = this.elem.querySelectorAll('.d-tree .doc');
             var excels = this.elem.querySelectorAll('.d-tree .excel');
             var pdfs = this.elem.querySelectorAll('.d-tree .pdf');

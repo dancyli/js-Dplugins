@@ -42,16 +42,16 @@ ul, ol {
     color: #FF5246;
 }
 .d-tree .folder {
-    background-image: url('../../images/folder/folder.png');
+    background-image: url('../../images/tree/folder.png');
 }
 .d-tree .doc {
-    background-image: url('../../images/folder/doc.png');
+    background-image: url('../../images/tree/doc.png');
 }
 .d-tree .excel {
-    background-image: url('../../images/folder/excel.png');
+    background-image: url('../../images/tree/excel.png');
 }
 .d-tree .pdf {
-    background-image: url('../../images/folder/pdf.png');
+    background-image: url('../../images/tree/pdf.png');
 }
 
 .d-tree .collapsed,
@@ -64,11 +64,11 @@ ul, ol {
 }
 
 .d-tree .collapsed {
-    background-image: url('../../images/folder/reduce.png');
+    background-image: url('../../images/tree/reduce.png');
 }
 
 .d-tree .has-collapsed {
-    background-image: url('../../images/folder/add.png');
+    background-image: url('../../images/tree/add.png');
 }
 
 .hidden {
