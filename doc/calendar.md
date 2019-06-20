@@ -5,9 +5,9 @@
 
 1. 在index.html中引入插件
 	
-	`<link rel="stylesheet" href="../src/calendar/calendar.css">`
+	`<link rel="stylesheet" href="../src/plugins/calendar/calendar.css">`
  
-	`<script src="../src/calendar/calendar.js"></script>`
+	`<script src="../src/plugins/calendar/calendar.js"></script>`
 
 2. 初始化
 

@@ -1,0 +1,76 @@
+/*.d-tree::-webkit-scrollbar {*/
+/*width: 12px;*/
+/*}*/
+ul, ol {
+    list-style: none;
+}
+.d-tree {
+    background: #333;
+    width: 250px;
+    color: #fff;
+    font-size: 16px;
+    min-height: 600px;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.d-tree ul {
+    padding-left: 30px;
+    position: relative;
+}
+
+.d-tree ul li {
+    margin: 15px 0;
+    min-width: 165px;
+}
+.d-tree span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.d-tree .node-name {
+    width: auto;
+    cursor: pointer;
+}
+.d-tree .checked, .d-tree .node-name:hover {
+    color: #FF5246;
+}
+.d-tree .folder {
+    background-image: url('../../images/folder/folder.png');
+}
+.d-tree .doc {
+    background-image: url('../../images/folder/doc.png');
+}
+.d-tree .excel {
+    background-image: url('../../images/folder/excel.png');
+}
+.d-tree .pdf {
+    background-image: url('../../images/folder/pdf.png');
+}
+
+.d-tree .collapsed,
+.d-tree .has-collapsed {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.d-tree .collapsed {
+    background-image: url('../../images/folder/reduce.png');
+}
+
+.d-tree .has-collapsed {
+    background-image: url('../../images/folder/add.png');
+}
+
+.hidden {
+    display: none;
+}

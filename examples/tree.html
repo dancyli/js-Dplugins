@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pagination</title>
+    <link rel="stylesheet" href="../src/plugins/tree/tree.css">
+</head>
+<body>
+<div id="d-tree" class="d-tree"></div>
+
+<script src="../src/plugins/tree/tree.js"></script>
+<script>
+    var data = [
+        {id: 1, name: "办公管理", pid: 0 , type: 'folder',
+            children: [
+                { id: 2, name: "请假申请", pid: 1, type: 'folder',
+                    children: [
+                        { id: 4, name: "请假记录", pid: 2, type: 'doc' },
+                    ],
+                },
+                { id: 3, name: "出差申请", pid: 1, type: 'pdf',},
+            ]
+        },
+        {id: 5, name: "系统设置", pid: 0 , type: 'folder',
+            children: [
+                { id: 6, name: "权限管理", pid: 5, type: 'folder',
+                    children: [
+                        { id: 7, name: "用户角色", pid: 6, type: 'pdf', },
+                        { id: 8, name: "菜单设置", pid: 6, type: 'excel', },
+                    ]
+                },
+            ]
+        },
+        {id: 9, name: "个人中心", pid: 0 , type: 'folder',
+            children: [
+                { id: 10, name: "我的个人信息", pid: 5, type: 'folder',
+                    children: [
+                        { id: 11, name: "基本信息设置", pid: 6, type: 'pdf', },
+                        { id: 12, name: "个人头像设置", pid: 6, type: 'excel', },
+                    ]
+                },
+                { id: 13, name: "联系方式绑定", pid: 5, type: 'folder',
+                    children: [
+                        { id: 14, name: "微信绑定", pid: 6, type: 'pdf', },
+                        { id: 15, name: "邮箱绑定", pid: 6, type: 'doc', },
+                        { id: 16, name: "关联手机号", pid: 6, type: 'excel', },
+                    ]
+                },
+                { id: 17, name: "实名认证", pid: 6, type: 'excel', },
+            ]
+        },
+    ];
+
+    DTree.init(document.getElementById('d-tree'), {
+        data: data,
+        // default: 'open', // 默认折叠，如需展开请设置default为open
+        style: { // 支持css标准样式设置
+            backgroundColor: "#fff", // 默认#333
+            color: "#454444", // 默认#fff
+            fontSize: '16px', // 默认16px
+            width: "280px", // 默认250px
+        },
+        // checkedColor: 'blue', // 默认#FF5246
+        // hoverColor: 'red', //默认使用checkedColor，若未设置checkedColor则默认#FF5246
+        // iconSize: '24px' // 默认20px
+        onClick: function(params) { //点击节点之后
+            console.log(params);
+        }
+    });
+</script>
+</body>
+</html>
