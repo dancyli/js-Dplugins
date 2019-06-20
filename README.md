@@ -17,7 +17,7 @@
 举个例子：[example](https://github.com/dancyli/js-Dplugins/blob/master/examples/pagination.html)
 
 效果图
-![分页插件](C:\Users\岳小虎\Desktop\pagination.png)
+![分页插件](https://github.com/dancyli/js-Dplugins/blob/master/doc/images/pagination.png)
 
 ## Tree ##
 
@@ -27,7 +27,7 @@
 
 效果图
 
-![树插件](C:\Users\岳小虎\Desktop\tree.png)
+![树插件](https://github.com/dancyli/js-Dplugins/blob/master/doc/images/tree.png)
 
 
 更多插件正在努力开发中，敬请期待......
