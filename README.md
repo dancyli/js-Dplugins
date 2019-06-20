@@ -3,23 +3,31 @@
 
 ## Calendar ##
 
-[日历插件Calendar](https://github.com/dancyli/js-Dplugins/blob/master/doc/calendar.md)
+使用文档：[日历插件Calendar](https://github.com/dancyli/js-Dplugins/blob/master/doc/calendar.md)
 
-[example](https://github.com/dancyli/js-Dplugins/blob/master/examples/calendar.html)
+举个例子：[example](https://github.com/dancyli/js-Dplugins/blob/master/examples/calendar.html)
 
-![日历插件](https://github.com/dancyli/js-Dplugins/blob/master/doc/images/calendar.png)
+效果图
+![日历插件](C:\Users\岳小虎\Desktop\calendar.png)
 
 ## Pagination ##
 
-[分页插件Pagination](https://github.com/dancyli/js-Dplugins/blob/master/doc/pagination.md)
+使用文档：[分页插件Pagination](https://github.com/dancyli/js-Dplugins/blob/master/doc/pagination.md)
 
-[example](https://github.com/dancyli/js-Dplugins/blob/master/examples/pagination.html)
+举个例子：[example](https://github.com/dancyli/js-Dplugins/blob/master/examples/pagination.html)
+
+效果图
+![分页插件](C:\Users\岳小虎\Desktop\pagination.png)
 
 ## Tree ##
 
-[树插件Tree](https://github.com/dancyli/js-Dplugins/blob/master/doc/tree.md)
+使用文档：[树插件Tree](https://github.com/dancyli/js-Dplugins/blob/master/doc/tree.md)
 
-[example](https://github.com/dancyli/js-Dplugins/blob/master/examples/tree.html)
+举个例子：[example](https://github.com/dancyli/js-Dplugins/blob/master/examples/tree.html)
+
+效果图
+
+![树插件](C:\Users\岳小虎\Desktop\tree.png)
 
 
 更多插件正在努力开发中，敬请期待......
