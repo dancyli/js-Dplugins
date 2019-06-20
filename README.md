@@ -13,4 +13,11 @@
 
 [example](https://github.com/dancyli/js-Dplugins/blob/master/examples/pagination.html)
 
+## Tree ##
+
+[树插件Tree](https://github.com/dancyli/js-Dplugins/blob/master/doc/tree.md)
+
+[example](https://github.com/dancyli/js-Dplugins/blob/master/examples/tree.html)
+
+
 更多插件正在努力开发中，敬请期待......

@@ -20,6 +20,7 @@
 插件可配置项如下：
 
 - data，必填，初始需要渲染的数据
+- default， 树结构初始展开与否，当此配置为open时，初始展开。 默认收起。
 - style，树的样式设置，支持css标准样式设置，如下所示
 
    ```
@@ -38,3 +39,5 @@
 插件提供以下内置事件：
 
 - onClick，树节点点击事件，返回当前点击的树节点的节点对象。
+
+更多使用方法请参考 [`exapmles/tree.html`](https://github.com/dancyli/js-Dplugins/blob/master/examples/tree.html)
