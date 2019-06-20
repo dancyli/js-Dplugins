@@ -7,6 +7,8 @@
 
 [example](https://github.com/dancyli/js-Dplugins/blob/master/examples/calendar.html)
 
+![日历插件](https://github.com/dancyli/js-Dplugins/blob/master/doc/images/calendar.png)
+
 ## Pagination ##
 
 [分页插件Pagination](https://github.com/dancyli/js-Dplugins/blob/master/doc/pagination.md)
